@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 12
       - name: Build site
-        run: npx @staart/site@3.0.0-beta.9 build
+        run: npx @staart/site@latest build
         env:
           NODE_ENV: "production"
       - uses: maxheld83/ghpages@v0.2.1
