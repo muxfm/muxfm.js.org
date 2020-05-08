@@ -23,8 +23,8 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: "production"
-      - uses: maxheld83/ghpages@v0.2.1
-        name: GitHub Pages Deploy
-        env:
-          BUILD_DIR: "dist/"
-          GH_PAT: ${{ secrets.GH_PAT }}
+      # - uses: maxheld83/ghpages@v0.2.1
+      # name: GitHub Pages Deploy
+      # env:
+      #   BUILD_DIR: "dist/"
+      # GH_PAT: ${{ secrets.GH_PAT }}
