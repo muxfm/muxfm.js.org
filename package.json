@@ -4,7 +4,7 @@
   "description": "Documentation and landing pages",
   "main": "index.js",
   "scripts": {
-    "build": "@staart/site",
+    "build": "site build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bulwarkfm/bulwarkfm.github.io#readme",
   "dependencies": {
-    "@staart/site": "^3.0.0-beta.15"
+    "@staart/site": "^3.0.0-beta.16"
   },
   "@staart/site": {
     "title": "Bulwark FM",
