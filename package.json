@@ -24,19 +24,64 @@
   "@staart/site": {
     "title": "Bulwark FM",
     "baseUrl": "https://bulwarkfm.github.io/docs",
+    "logo": "https://avatars0.githubusercontent.com/u/64641444?s=200&v=4",
     "listSubpages": true,
     "ignoreHomeSubpages": true,
-    "theme": {},
+    "theme": {
+      "headerBackgroundColor": "#ff9cdb",
+      "headerTextColor": "#1c000a",
+      "textColor": "#1c000a",
+      "linkColor": "#ff007b",
+      "buttonBackgroundColor": "yellow",
+      "buttonBackgroundColorLight": "#ff9e9e",
+      "buttonTextColor": "#1c000a",
+      "doodleFillColor": "yellow"
+    },
     "navbar": [
+      "<a href='https://bulwarkfm.github.io/docs/getting-started/'>Getting started</a>",
       "<a href='https://bulwarkfm.github.io/docs/glue/'>Glue</a>",
       "<a href='https://bulwarkfm.github.io/docs/site/'>Site</a>",
       "<a href='https://github.com/bulwarkfm'>GitHub</a>"
     ],
+    "preFooter": [
+      {
+        "type": "message",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/github.svg",
+        "title": "Free and open source",
+        "text": "Bulwark FM is MIT licensed and available for free on <a href='https://github.com/bulwarkfm'>GitHub</a>, and uses open platforms like GitHub Actions to deploy your site and feed."
+      },
+      {
+        "type": "message",
+        "style": {
+          "background-color": "var(--headerBackgroundColor)",
+          "color": "var(--headerTextColor)",
+          "padding": "5vh 0 10vh 0"
+        },
+        "illustration": "dancing",
+        "title": "From an Anchor.fm podcast to your own in 5 minutes.",
+        "ctaText": "Get started →",
+        "ctaLink": "/getting-started"
+      }
+    ],
     "footer": {
-      "text": "Bulwark FM is free and open source",
+      "text": "Bulwark FM is an open source project, and not associated with Anchor.fm. Anchor is a trademark of Anchor FM Inc.",
       "links": [
-        "<a href='https://github.com/bulwarkfm'>GitHub</a>"
+        "<a href='https://github.com/bulwarkfm'>GitHub</a>",
       ]
+    },
+    "pages": {
+      "/": {
+        "title": "Home",
+        "components": [
+          {
+            "type": "header",
+            "title": "The Anchor.fm podcast stack.",
+            "text": "Claim your Anchor.fm podcast by automatically generating a JAMStack static website, custom domain podcast feed, and more.",
+            "ctaText": "See a demo site →",
+            "ctaLink": "https://bulwarkfm.github.io/site/episodes/"
+          }
+        ]
+      }
     }
   }
 }
