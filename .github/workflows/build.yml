@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 12
       - name: Build site
-        run: npx @staart/site@latest build
+        run: npm run build
         env:
           NODE_ENV: "production"
       - uses: maxheld83/ghpages@v0.2.1
         name: GitHub Pages Deploy
         env:
-          BUILD_DIR: "public/dist/"
+          BUILD_DIR: "dist/"
           GH_PAT: ${{ secrets.GH_PAT }}
