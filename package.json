@@ -23,12 +23,13 @@
   },
   "@staart/site": {
     "title": "Bulwark FM",
+    "baseUrl": "https://bulwarkfm.github.io/docs",
     "listSubpages": true,
     "ignoreHomeSubpages": true,
     "theme": {},
     "navbar": [
-      "<a href='https://bulwarkfm.github.io/glue/'>Glue</a>",
-      "<a href='https://bulwarkfm.github.io/site/'>Site</a>",
+      "<a href='https://bulwarkfm.github.io/docs/glue/'>Glue</a>",
+      "<a href='https://bulwarkfm.github.io/docs/site/'>Site</a>",
       "<a href='https://github.com/bulwarkfm'>GitHub</a>"
     ],
     "footer": {
