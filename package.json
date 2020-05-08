@@ -4,6 +4,7 @@
   "description": "Documentation and landing pages",
   "main": "index.js",
   "scripts": {
+    "build": "@staart/site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,22 @@
   "homepage": "https://github.com/bulwarkfm/bulwarkfm.github.io#readme",
   "dependencies": {
     "@staart/site": "^3.0.0-beta.15"
+  },
+  "@staart/site": {
+    "title": "Bulwark FM",
+    "listSubpages": true,
+    "ignoreHomeSubpages": true,
+    "theme": {},
+    "navbar": [
+      "<a href='https://bulwarkfm.github.io/glue/'>Glue</a>",
+      "<a href='https://bulwarkfm.github.io/site/'>Site</a>",
+      "<a href='https://github.com/bulwarkfm'>GitHub</a>"
+    ],
+    "footer": {
+      "text": "Bulwark FM is free and open source",
+      "links": [
+        "<a href='https://github.com/bulwarkfm'>GitHub</a>"
+      ]
+    }
   }
 }
