@@ -8,32 +8,32 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: "MuxFM Glue",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Generate your own, self-hosted podcast RSS feed and JSON API using
+        AnchorFM
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: "MuxFM Site",
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A beautiful and fast static site for your podcast with episode pages and
+        audio players
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: "MuxFM UI",
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Build your own podcast sites and apps with web, React, Vue, and Svelte
+        components
       </>
     ),
   },
@@ -42,7 +42,10 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames("col col--4", styles.feature)}>
+    <Link
+      to={useBaseUrl(`docs/${title.replace("MuxFM ", "").toLowerCase()}/`)}
+      className={classnames("col col--4", styles.feature)}
+    >
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -50,7 +53,7 @@ function Feature({ imageUrl, title, description }) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
-    </div>
+    </Link>
   );
 }
 

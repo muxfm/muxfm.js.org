@@ -31,6 +31,15 @@
   width: 100%;
 }
 
+.feature {
+  color: inherit;
+  text-decoration: none;
+}
+.feature:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 .featureImage {
   height: 200px;
   width: 200px;
@@ -39,4 +48,7 @@
 .getStarted {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.getStarted:hover {
+  box-shadow: 0 0 0 0.1rem;
 }

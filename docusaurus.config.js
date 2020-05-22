@@ -56,11 +56,11 @@ module.exports = {
               href: "https://stackoverflow.com/questions/tagged/muxfm",
             },
             {
-              label: "Blog",
+              label: "MuxFM Blog",
               to: "blog",
             },
             {
-              label: "GitHub",
+              label: "@MuxFM on GitHub",
               href: "https://github.com/muxfm",
             },
           ],
@@ -79,7 +79,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/muxfm/docs/edit/master/blog/",
+          editUrl: "https://github.com/muxfm/docs/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
