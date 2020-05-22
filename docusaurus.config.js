@@ -1,7 +1,7 @@
 module.exports = {
   title: "MuxFM",
   tagline: "The open source podcast stack",
-  url: "https://muxfm.github.io/docs/",
+  url: "https://muxfm.js",
   baseUrl: "/",
   favicon: "https://avatars0.githubusercontent.com/u/64641444?s=200&v=4",
   organizationName: "muxfm",
