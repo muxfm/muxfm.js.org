@@ -9,6 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: "MuxFM Glue",
+    to: "glue/getting-started",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
@@ -19,6 +20,7 @@ const features = [
   },
   {
     title: "MuxFM Site",
+    to: "site/getting-started",
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
@@ -29,6 +31,7 @@ const features = [
   },
   {
     title: "MuxFM UI",
+    to: "ui/getting-started",
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
@@ -39,11 +42,11 @@ const features = [
   },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function Feature({ imageUrl, title, to, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <Link
-      to={useBaseUrl(`docs/${title.replace("MuxFM ", "").toLowerCase()}/`)}
+      to={useBaseUrl(`docs/${to}`)}
       className={classnames("col col--4", styles.feature)}
     >
       {imgUrl && (
