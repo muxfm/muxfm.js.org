@@ -61,17 +61,16 @@ function Feature({ imageUrl, title, to, description }) {
 }
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
-      title={"The open-source podcast stack"}
-      description="Description will go into a meta tag in <head />"
+      title={"The open-source podcasting stack"}
+      description="MuxFM is the open-source podcasting stack"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">
+            MuxFM is the open-source podcasting stack
+          </h1>
           <div className={styles.buttons}>
             <Link
               className={classnames(
