@@ -1,6 +1,6 @@
 ---
 id: glue-getting-started
-title: Getting started
+title: Getting started with MuxFM Glue
 ---
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
