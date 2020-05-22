@@ -3,7 +3,7 @@ module.exports = {
   tagline: "The open source podcast stack",
   url: "https://muxfm.github.io/docs/",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "https://avatars0.githubusercontent.com/u/64641444?s=200&v=4",
   organizationName: "muxfm",
   projectName: "docs",
   themeConfig: {
@@ -11,7 +11,7 @@ module.exports = {
       title: "MuxFM",
       logo: {
         alt: "",
-        src: "img/logo.svg",
+        src: "https://avatars0.githubusercontent.com/u/64641444?s=200&v=4",
       },
       links: [
         {
