@@ -3,11 +3,11 @@ id: styleguide
 title: Styleguide
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+:::note
 
-## Markdown Syntax
+This is an example page for writing posts on the MuxFM website. You can use the source as a styleguide. You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
-To serve as an example page when styling markdown based Docusaurus sites.
+:::
 
 ## Headers
 
@@ -84,11 +84,15 @@ Some text to show that the reference links can follow later.
 
 Here's our logo (hover to see the title text):
 
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+Inline-style:
 
-Reference-style: ![alt text][logo]
+![alt text](https://avatars0.githubusercontent.com/u/64641444?s=100&v=4 "Logo Title Text 1")
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+Reference-style:
+
+![alt text][logo]
+
+[logo]: https://avatars0.githubusercontent.com/u/64641444?s=100&v=4 "Logo Title Text 2"
 
 ---
 
