@@ -1,5 +1,5 @@
 ---
-id: ui-getting-started
+id: getting-started
 title: Getting started with MuxFM UI
 ---
 

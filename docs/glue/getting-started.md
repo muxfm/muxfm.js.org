@@ -1,5 +1,5 @@
 ---
-id: glue-getting-started
+id: getting-started
 title: Getting started with MuxFM Glue
 ---
 

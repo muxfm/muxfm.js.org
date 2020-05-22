@@ -1,5 +1,5 @@
 ---
-id: site-getting-started
+id: getting-started
 title: Getting started with MuxFM Site
 ---
 
