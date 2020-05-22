@@ -94,3 +94,5 @@ typings/
 dist/
 public/
 .staart/
+build/
+.docusaurus/
