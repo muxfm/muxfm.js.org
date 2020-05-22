@@ -10,7 +10,7 @@ const features = [
   {
     title: "MuxFM Glue",
     to: "glue/getting-started",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/UnboxingDoodle.svg",
     description: (
       <>
         Generate your own, self-hosted podcast RSS feed and JSON API using
@@ -21,7 +21,7 @@ const features = [
   {
     title: "MuxFM Site",
     to: "site/getting-started",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    imageUrl: "img/DancingDoodle.svg",
     description: (
       <>
         A beautiful and fast static site for your podcast with episode pages and
@@ -32,7 +32,7 @@ const features = [
   {
     title: "MuxFM UI",
     to: "ui/getting-started",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    imageUrl: "img/FloatDoodle.svg",
     description: (
       <>
         Build your own podcast sites and apps with web, React, Vue, and Svelte
