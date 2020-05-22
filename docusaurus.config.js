@@ -73,7 +73,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          homePageId: "doc1",
+          homePageId: "about",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/muxfm/docs/edit/master/",
         },
