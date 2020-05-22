@@ -6,10 +6,17 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 4rem 0 0 0;
+  background-color: transparent;
+  color: var(--ifm-color-primary);
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.heroBanner h1 {
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
 }
 
 @media screen and (max-width: 966px) {
