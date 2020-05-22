@@ -1,8 +1,8 @@
 module.exports = {
   someSidebar: {
-    "Mux FM": ["about", "styleguide"],
-    "Mux Glue": ["glue/glue-getting-started"],
-    "Mux Site": ["site/site-getting-started"],
-    "Mux UI": ["ui/ui-getting-started"],
+    MuxFM: ["about", "styleguide"],
+    "MuxFM Glue": ["glue/glue-getting-started"],
+    "MuxFM Site": ["site/site-getting-started"],
+    "MuxFM UI": ["ui/ui-getting-started"],
   },
 };
