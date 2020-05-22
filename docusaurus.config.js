@@ -1,103 +1,88 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "MuxFM",
+  tagline: "The open source podcast stack",
+  url: "https://muxfm.github.io/docs/",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
+  organizationName: "muxfm",
+  projectName: "docs",
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "MuxFM",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "",
+        src: "img/logo.svg",
       },
       links: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: "blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/muxfm",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "MuxFM Docs",
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: "Glue: RSS feed and JSON API generator",
+              to: "docs/glue/",
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: "Site: Static site for your podcast",
+              to: "docs/site/",
+            },
+            {
+              label: "UI: Web components libraries",
+              to: "docs/ui/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Resources",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/muxfm",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/muxfm",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          homePageId: "doc1",
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/muxfm/docs/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: "https://github.com/muxfm/docs/edit/master/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
