@@ -13,6 +13,8 @@ RSS feeds, open APIs, etc., like you'd expect engineers to.
 
 We realized that the podcasting ecosystem is very open (which is great!), but is also limited by the lack of open-source tooling available. MuxFM aims to fix that.
 
+<!--truncate-->
+
 Most people getting started use [Anchor](https://anchor.fm), because it's free and easy to use. However, if you publish an Anchor-powered podcast, you're tied to their URLs in your RSS feed and podcast website. There is no easy way to use Anchor as a backend, but publish your own feed URLs and build a website.
 
 That's where our first project, **Glue**, comes in — with MuxFM Glue, you can generate your own RSS feed URL and JSON API using your Anchor-generated feed. You have complete control over the feeds to distribute via RSS and submit to podcast directories. Then, using Glue's JSON APId for your podcast, you can use MuxFM **Site** to generate a beautiful and fast static website (hell yeah, JAMStack!) for your podcast. We're also building web components supporting frameworks like React, Vue, and Svelte in MuxFM **UI**, with which you can build your own webapps.
