@@ -3,15 +3,14 @@ id: getting-started
 title: Getting started with MuxFM Glue
 ---
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+After you've created your Anchor account and podcast, you can get started with MuxFM Glue.
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}> {children} </span> );
+1. Clone the `muxfm/glue` project: https://github.com/muxfm/glue
+2. Setup required secrets
 
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+- `ANCHOR_USERNAME` is your Anchor username
+- `SITE_BASE` is your website's base URL with no trailing slash
 
-I can write **Markdown** alongside my _JSX_!
+3. Open a new issue in the GitHub repository (this will be issue #1)
+4. If you comment `build` on this issue, GitHub Actions will trigger a build
+5. Generate your static site using MuxFM Site

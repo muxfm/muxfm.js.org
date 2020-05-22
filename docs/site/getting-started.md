@@ -3,15 +3,8 @@ id: getting-started
 title: Getting started with MuxFM Site
 ---
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+After you've created your RSS feed and JSON API using MuxFM Glue, you can get started with MuxFM Site.
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}> {children} </span> );
-
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
-
-I can write **Markdown** alongside my _JSX_!
+1. Set up a repository using this template or fork this repository
+2. Clone the repository locally and run the command npm run setup
+3. To generate your static site, run the command `npm run build`
